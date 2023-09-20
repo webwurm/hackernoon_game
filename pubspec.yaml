@@ -8,6 +8,7 @@ environment:
 
 dependencies:
   flame: ^1.8.2
+  flame_tiled: ^1.13.0
   flutter:
     sdk: flutter
 
@@ -21,3 +22,4 @@ flutter:
   assets:
     - assets/
     - assets/images/
+    - assets/tiles/

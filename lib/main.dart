@@ -1,7 +1,9 @@
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
+import 'package:hackernoon_game/game.dart';
 
 void main() {
-  final game = FlameGame();
-  runApp(GameWidget(game: game));
+  runApp(const GameWidget<PlatformerGame>.controlled(
+    gameFactory: PlatformerGame.new,
+  ));
 }
