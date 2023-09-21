@@ -1,3 +1,3 @@
 # hackernoon_game
 
-A new Flutter project.
+The game from https://hackernoon.com/u/eugene-kleshnin, only updated to Flame 1.8 (new CameraComponent)
